@@ -5,11 +5,17 @@
     list-style: none;
     &_item{ 
         width: 70%;
-        height: 100px;
+        height: 150px;
         margin: 0 auto;
         padding: 5px;
         border: 1px solid rgb(150, 150, 150);
         border-radius: 8px;
         padding-left: 20px;
     }
+}
+
+.flex {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
 }

@@ -2,7 +2,8 @@ import s from './FormCreate.module.scss'
 const FormCreate = (props) => { 
     const contactCandidate = {
         name: '',
-        phone:''
+        phone:'',
+        reputation: 0,
     }
     const handleChangeInput = (inputName, inputValue) => { 
         contactCandidate[inputName] = inputValue

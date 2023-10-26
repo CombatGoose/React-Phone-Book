@@ -9,6 +9,7 @@ const App = (props) => {
                 contactsStore={props.contactsStore}
             />
             <Contacts
+                reRender = {props.reRender}
                 list={props.contactsStore}
             />
         </>

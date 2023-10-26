@@ -9,7 +9,8 @@ const contactsStore = [
   { 
     id: 1, 
     name: "John",
-    phone: "380000000000"
+    phone: "380000000000",
+    reputation: 0
   }
 ]
 
